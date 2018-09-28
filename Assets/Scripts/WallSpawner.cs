@@ -10,9 +10,9 @@ public class WallSpawner : MonoBehaviour {
 
     void Start ()
     {
-		for (int i = 0; i < 5; i++)
+		for (int i = 0; i < 8; i++)
         {
-            for( int x = 0; x < 5; x++)
+            for( int x = 0; x < 8; x++)
             {
                 GameObject clone;
                 clone = Instantiate(cube, new Vector3(i * 3.0f, x * 3.0f, 0), Quaternion.identity);
